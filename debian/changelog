@@ -1,3 +1,9 @@
+tcf-agent (1.7.0+ind2) testing; urgency=medium
+
+  * Fix systemd service
+
+ -- Cedric Hombourger <cedric_hombourger@mentor.com>  Wed, 23 Jan 2019 14:41:34 -0500
+
 tcf-agent (1.7.0+ind1) testing; urgency=medium
 
   * Initial release.
