@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE =1
+
+.PHONY: override_dh_auto_build override_dh_auto_clean override_dh_auto_install
+
+override_dh_auto_build:
+	$(MAKE) -C agent
+
+override_dh_auto_clean:
+	$(MAKE) -C agent clean
+
+override_dh_install:
+	$(MAKE) -C agent INSTALLROOT=$(CURDIR)/debian/tmp install
+	dh_install
+
+%:
+	dh $@ --with systemd

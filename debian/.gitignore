@@ -1,0 +1,9 @@
+.debhelper
+debhelper-build-stamp
+files
+libtcf-dev
+tcf-agent
+tmp
+*.debhelper
+*.log
+*.substvars

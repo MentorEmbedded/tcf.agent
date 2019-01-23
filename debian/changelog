@@ -1,0 +1,5 @@
+tcf-agent (1.7.0+ind1) testing; urgency=medium
+
+  * Initial release.
+
+ -- Cedric Hombourger <cedric_hombourger@mentor.com>  Wed, 23 Jan 2019 09:10:57 +0000
